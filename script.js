@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 counterElement.textContent = currentValue;
                 setTimeout(()=>{
                     gsap.to(counterElement, {
-                        y: -20,
+                        y: -50,
                         duration: 1,
                         ease:"power3.inOut",
                         onStart: ()=>{
